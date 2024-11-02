@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif; /* Use a sans-serif font for better readability */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    max-width: 960px; /* Limit container width for better readability */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #8a2be2; /* Purple background for header */
+    color: #fff; /* White text color on purple background */
+    padding: 10px 0; /* Add padding to header for spacing */
+}
+
+.container-header {
+    display: flex; /* Use flexbox for flexible layout */
+    justify-content: space-between; /* Align items to start and end */
+    align-items: center; /* Align items vertically */
+}
+
+.logo {
+    text-decoration: none; /* Remove underline from logo */
+    color: #fff; /* White text color */
+    font-weight: bold; /* Add bold font weight to logo */
+    font-size: 24px; /* Increase font size for logo */
+}
+
+.logo img {
+    vertical-align: middle; /* Align logo vertically with text */
+    margin-right: 10px; /* Add spacing between logo and text */
+}
+
+.nav-right {
+    margin-left: auto; /* Push navigation links to the right */
+}
+
+.nav-right a {
+    margin-left: 20px; /* Add spacing between navigation links */
+    color: #fff; /* White text color for navigation links */
+    text-decoration: none; /* Remove underline from navigation links */
+    font-weight: bold; /* Add bold font weight to navigation links */
+    font-size: 18px; /* Increase font size for navigation links */
+}
+
+.nav-right a:hover {
+    color: #8a2be2; /* Yellow color on hover */
+}
+
+/* Center image-container */
+.image-container {
+    display: flex;
+    justify-content: center; /* Horizontally center items */
+    align-items: center; /* Vertically center items */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if they exceed container width */
+}
+
+/* Adjust image size */
+.image-container img {
+    max-width: 50%; /* Set maximum width to prevent images from exceeding their container */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add some space around images */
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px; /* Add padding to buttons */
+    border: 2px solid #8a2be2; /* Add 2px purple border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background color and text color change */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make buttons display inline-block */
+    margin: 10px; /* Add margin to separate buttons */
+}
+
+.button-group {
+    border: 2px solid #8a2be2; /* Add 5px purple border around the container */
+    padding: 20px; /* Add padding to the container */
+    display: inline-block; /* Make container display inline-block */
+    border-radius: 10px;
+
+}
+
+.button-group a {
+    text-decoration: none; /* Remove underline from links in the button group */
+}
+
+.btn-login,
+.btn-signup,
+.btn-help,
+.btn {
+    background-color: #8a2be2; /* Purple background for login button */
+    color: #fff; /* White text color for login button */
+}
+
+.btn:hover {
+    background-color: #ff0; /* White background color on hover */
+    color: #8a2be2; /* Yellow text color on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #8a2be2; /* Purple background for footer */
+    color: #fff; /* White text color on purple background */
+    padding: 10px 0; /* Add padding to footer for spacing */
+    text-align: center; /* Center-align text in footer */
+    position: flex; /* Fixed positioning */
+    left: 0; /* Align to the left */
+    bottom: 0; /* Align to the bottom */
+    width: 100%; /* Take up full width of the viewport */
+}
+
+/* Additional Styles */
+.button-group a {
+    text-decoration: none; /* Remove underline from links in the button group */
+}
+
+/* Table Styles */
+table {
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse; /* Collapse table borders */
+    width: 80%; /* Set table width to 80% of its container */
+}
+
+thead {
+    background-color: #8a2be2; /* Purple background for table header */
+    color: #fff; /* White text color for table header */
+}
+
+thead th, tbody td {
+    padding: 10px; /* Add padding to table cells */
+    border-bottom: 1px solid #ccc; /* Add bottom border to table cells */
+    text-align: center; /* Center-align text in table cells */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+tbody tr:hover {
+    background-color: #ddd; /* Darker gray background on hover */
+}
